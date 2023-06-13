@@ -1,8 +1,0 @@
-@media only screen and (max-width:599px){.home-page-category-tile{margin-bottom:32px}}
-@media only screen and (max-width:599px){.home-page-steps-tabs a{font-size:16px;padding:8px 20px;margin:auto}}
-@media only screen and (max-width:599px){.home-page-steps ul{padding:0}.home-page-steps ul li{flex-basis:100%}.steps-facts figure{flex-basis:100%;margin-top:2px;margin-bottom:2px}}
-@media only screen and (max-width:599px){.home-page-teasers-two-cols{padding:0}.home-page-teasers-two-cols .home-page-teaser{margin-right:0}}
-@media only screen and (max-width:599px){.home-page-teaser figure .home-page-teaser-img-mobile{display:block}.home-page-teaser figure .home-page-teaser-img-desktop{display:none}}
-@media only screen and (max-width:599px){.home-page-teasers-two-cols .home-page-teaser:not(:last-child){margin-bottom:8px}}
-@media only screen and (max-width:599px){.home-page-teasers-hr{height:1px;margin-top:64px;margin-bottom:40px}}
-@media only screen and (max-width:599px){.home-page-teasers-three-cols .home-page-teaser{margin-right:0;border-radius:2px;flex-direction:row}.home-page-teasers-three-cols .home-page-teaser:not(:last-child){margin-bottom:16px}.home-page-teasers-three-cols .home-page-teaser figure{width:100px;height:100px;flex-grow:0;flex-shrink:0}.home-page-teasers-three-cols .home-page-teaser figure img{width:100px;height:100px;-o-object-fit:cover;object-fit:cover}.home-page-teasers-three-cols .home-page-teaser-content{display:flex;align-items:center;padding:16px}.home-page-teasers-three-cols .home-page-teaser-content span{left:-84px}}
