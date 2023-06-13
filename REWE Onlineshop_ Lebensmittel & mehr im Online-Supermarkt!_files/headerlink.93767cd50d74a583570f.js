@@ -1,1 +1,0 @@
-!function(){"use strict";function e(){var e=new CustomEvent("MarketChooser:showMarketSelection");document.dispatchEvent(e)}function t(){var t=document.querySelector("#gbmc-js-header-link");null!==t&&(t.removeEventListener("click",e),t.addEventListener("click",e))}"interactive"===document.readyState?t():document.addEventListener("DOMContentLoaded",t)}();
