@@ -1,0 +1,5 @@
+window.Adform.Tracking.TrackingPointId = 49216198;
+window.Adform.Tracking.TrackingPointName = "shop.rewe.de | startseite";
+Adform.Tracking.CreateIframeElement("https://track.adform.net/serving/container/?pm=340517&lid=49216198&ctype=0&media=0&PageName=shop.rewe.de+%7c+startseite&sysvars=%7c%7c%7c%7c&itm=eyJzbCI6IiIsInN2MSI6IiIsInN2MiI6Imd1ZXN0Iiwic3YzIjoibGllZmVyc2VydmljZSIsInN2NCI6IiIsInN2NSI6IiIsInN2NiI6IiIsInN2NyI6IiIsInN2OCI6IiIsInN2bjIiOiIifQ&rnd=1884185159&cpref=&loc=https%3a%2f%2fshop.rewe.de%2f");try{
+adf.track(428167,'REWE Lieferservice');
+}catch(e){}
