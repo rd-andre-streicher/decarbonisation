@@ -1,0 +1,279 @@
+:root{
+/* REWE Shop Color Palette */
+
+/* Gray Range */
+
+--black: #000000;
+--dark-gray: #1c1c1c;
+--gray-shade-900: #4c4c4c;
+--base-gray: #676767;
+--gray-shade-700: #757575;
+--gray-shade-600: #949494;
+--medium-gray: #cccccc;
+--light-gray: #e1e1e1;
+--ultralight-gray-hover: #e1e1e1;
+--ultralight-gray: #f1f1f1;
+--white: #ffffff;
+
+/* Main Colors */
+
+--rewe-red: #cc071e;
+--rewe-red-dark: #9e0012;
+--rewe-red-hover: #9e0012;
+--rewe-green: #007d3e;
+--rewe-green-dark: #005c2e;
+--rewe-green-hover: #005c2e;
+--rewe-blue: #0065cb;
+--notification: #0065cb;
+--rewe-blue-dark: #0047b0;
+--marktplatz-partner: #0047b0;
+--rewe-ja-brand-blue: #164193;
+--yellow: #ffe85c;
+--watermelon: #b34528;
+--mocca: #91602c;
+--orange: #a35b00;
+--curry: #8c6a00;
+--olive: #66701c;
+--lime: #447819;
+--spearmint: #1b7785;
+--avocado: #266b3d;
+--ice: #1d758f;
+--blueberry: #265d8b;
+--aubergine: #584c85;
+--blackberry: #703e69;
+
+/* !!!deprecated --- Special (old) Colors --- deprecated!!!*/
+
+--melon: #fb5449;
+--sale: #fb5449;
+--sunglow: #ff9b10;
+--alert: #ff9b10;
+
+/* Sub Colors */
+
+
+/* Red: */
+
+--red-900: #b50015;
+--red-700: #ed001c;
+--red-600: #ff001e;
+--red-100: #f9e6e8;
+--red-50: #fcf2f4;
+
+/* Green: */
+
+--green-900: #006633;
+--green-700: #008744;
+--green-600: #009e4f;
+--green-100: #e6f2ec;
+--green-50: #f2f8f5;
+
+/* Blue: */
+
+--blue-900: #0053bf;
+--blue-700: #0074e8;
+--blue-600: #0080ff;
+--blue-100: #e5eff9;
+--blue-50: #f2f7fc;
+
+/* Yellow: */
+
+--yellow-100: #fdf3d5;
+
+/* Watermelon: */
+
+--watermelon-1000: #853926;
+--watermelon-900: #913e27;
+--watermelon-700: #c84f2e;
+--watermelon-600: #e35e3b;
+--watermelon-500: #ee6743;
+--watermelon-150: #fde8e3;
+--watermelon-100: #fdefec;
+--watermelon-50: #fef7f5;
+
+/* Mocca: */
+
+--mocca-1000: #664a2b;
+--mocca-900: #705130;
+--mocca-700: #9c6a36;
+--mocca-600: #b67a3d;
+--mocca-500: #c58542;
+--mocca-150: #f0e9e1;
+--mocca-100: #f5f0ea;
+--mocca-50: #faf7f5;
+
+/* Orange: */
+
+--orange-1000: #784300;
+--orange-900: #854a00;
+--orange-700: #ad6100;
+--orange-600: #c97001;
+--orange-500: #d67701;
+--orange-150: #f9ebd9;
+--orange-100: #faf1e5;
+--orange-50: #fdf8f2;
+
+/* Curry: */
+
+--curry-1000: #664d00;
+--curry-900: #705400;
+--curry-700: #947000;
+--curry-600: #b08606;
+--curry-500: #b48800;
+--curry-150: #f4edd9;
+--curry-100: #f7f3e5;
+--curry-50: #f9f7f2;
+
+/* Olive: */
+
+--olive-1000: #4f5421;
+--olive-900: #565c24;
+--olive-700: #707a20;
+--olive-600: #839211;
+--olive-500: #8b9c0c;
+--olive-150: #eaebde;
+--olive-100: #f0f1e8;
+--olive-50: #f8f8f4;
+
+/* Lime: */
+
+--lime-1000: #325913;
+--lime-900: #376316;
+--lime-700: #4a851d;
+--lime-600: #4f9817;
+--lime-500: #51a611;
+--lime-150: #e5f0dc;
+--lime-100: #edf4e7;
+--lime-50: #f6faf3;
+
+/* Spearmint: */
+
+--spearmint-1000: #135862;
+--spearmint-900: #15626d;
+--spearmint-700: #1d8291;
+--spearmint-600: #1697ab;
+--spearmint-500: #11a3ba;
+--spearmint-150: #ddedef;
+--spearmint-100: #e8f2f4;
+--spearmint-50: #f3f9f9;
+
+/* Avocado: */
+
+--avocado-1000: #205932;
+--avocado-900: #236338;
+--avocado-700: #268747;
+--avocado-600: #229c4b;
+--avocado-500: #1ea84d;
+--avocado-150: #dfe9e2;
+--avocado-100: #e9f0eb;
+--avocado-50: #f4f7f5;
+
+/* Ice: */
+
+--ice-1000: #195769;
+--ice-900: #1c6074;
+--ice-700: #137e9e;
+--ice-600: #2694b5;
+--ice-500: #30a0c2;
+--ice-150: #e0f1f6;
+--ice-100: #eaf5f8;
+--ice-50: #f4fafc;
+
+/* Blueberry: */
+
+--blueberry-1000: #1f496e;
+--blueberry-900: #22517a;
+--blueberry-700: #1d64a1;
+--blueberry-600: #1f70b5;
+--blueberry-500: #1f77c2;
+--blueberry-150: #dfe7ee;
+--blueberry-100: #e9eef3;
+--blueberry-50: #f4f7f9;
+
+/* Aubergine: */
+
+--aubergine-1000: #473d6b;
+--aubergine-900: #4e4375;
+--aubergine-700: #5c4f8f;
+--aubergine-600: #605199;
+--aubergine-500: #6453a3;
+--aubergine-150: #e6e4ed;
+--aubergine-100: #eeedf2;
+--aubergine-50: #f6f6f9;
+
+/* Blackberry: */
+
+--blackberry-1000: #61365b;
+--blackberry-900: #6b3b64;
+--blackberry-700: #784170;
+--blackberry-600: #824579;
+--blackberry-500: #8a4880;
+--blackberry-150: #eae2e9;
+--blackberry-100: #f0ebf0;
+--blackberry-50: #f8f5f7;
+
+}
+
+.gbmc-header-link {
+  display: flex;
+  align-items: center;
+
+  color: #1c1c1c;
+
+  color: var(--dark-gray);
+  font-weight: normal;
+  font-size: 0.875rem;
+  font-family: UnitRoundedOT, sans-serif;
+  line-height: 1.28571;
+  text-decoration: none;
+
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.gbmc-header-link::-moz-focus-inner {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
+.gbmc-header-link:focus,
+.gbmc-header-link:active,
+.gbmc-header-link:hover {
+  color: #cc071e;
+  color: var(--rewe-red);
+}
+
+.gbmc-header-link__icon {
+  fill: #1c1c1c;
+  fill: var(--dark-gray);
+}
+
+.gbmc-header-link:focus .gbmc-header-link__icon,
+.gbmc-header-link:active .gbmc-header-link__icon,
+.gbmc-header-link:hover .gbmc-header-link__icon {
+  fill: #cc071e;
+  fill: var(--rewe-red);
+}
+
+.gbmc-header-link__text {
+  margin-left: 0.3125rem;
+  padding-left: 0.625rem;
+
+  box-shadow: inset 0.0625rem 0 0 0 #cccccc;
+
+  box-shadow: inset 0.0625rem 0 0 0 var(--medium-gray);
+}
+
+.gbmc-header-link:focus .gbmc-header-link__text,
+.gbmc-header-link:active .gbmc-header-link__text,
+.gbmc-header-link:hover .gbmc-header-link__text {
+  box-shadow: inset 0.0625rem 0 0 0 #cc071e;
+  box-shadow: inset 0.0625rem 0 0 0 var(--rewe-red);
+}
+
