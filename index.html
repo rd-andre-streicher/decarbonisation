@@ -48,8 +48,6 @@
   <link
   <link href="./assets/shop-header-bundle.css"
     rel="stylesheet" type="text/css">
-  <link href="./assets/flagship-bundle.css"
-    rel="stylesheet" type="text/css" meso-options="place-in-header">
   <link href="./assets/rewe-footer.css" rel="stylesheet"
     media="all" onload="this.media=&#39;all&#39;; this.onload=null;">
   <link href="./assets/normalize.min.css" rel="stylesheet"
@@ -103,8 +101,6 @@
     src="./assets/react-dom.production.min.js"></script>
   <script
     src="./assets/prod.2b103fab8e76ecd491c5.js"></script>
-  <script src="./assets/flagship-bundle.js"
-    type="module"></script>
   <script
     src="./assets/product-service-bundle.js"></script>
   <script src="./assets/product-tile-bundle.js"></script>
@@ -645,97 +641,6 @@
       <div class="home-page-category-empty-tile"></div>
       <div class="home-page-category-empty-tile"></div>
       <div class="home-page-category-empty-tile"></div>
-    </div>
-  </div>
-  <div class="flagship-container">
-
-    <textarea class="pdr-add-to-cart-template" style="display: none">&lt;meso-data id="c38d053f-d97e-4d79-a9d6-ba60025b6655" data-favorite-url="http://rewe-shopping-list-service/views/add-to-shoppinglist-button" data-listingid="@@data-meso-listingid@@" data-productid="@@data-meso-productid@@" data-amount="1"&gt;&lt;!-- FIXME include bubble only once --&gt;&lt;div class="bs_add2cart_container"&gt;
-&lt;!-- void --&gt;
-&lt;div class="lrms-favorite-button-container"&gt;&lt;/div&gt;&lt;script type="application/json" class="favoritebutton-propstore"&gt;{"additionalUiData":{"assetBaseUrl":"https://shop.rewe-static.de/rewe-myproducts/b8f50f4b817f791a2dd5dcfac3bbae9568462de3","staticAssetBaseUrl":"https://shop.rewe-static.de/rewe-myproducts","favoritesBaseUrl":"/api/favorites","anonymousFavoritesBaseUrl":"/api/anonymousfavorites"},"testgroups":["HIDE_REGULAR_PRICE"],"togglz":[]}&lt;/script&gt;&lt;!-- //NOSONAR --&gt;&lt;!-- //NOSONAR --&gt;&lt;div class="bs_amount-handler bs_add2cart bs_amount-zero" data-is-initialized="false"&gt;&lt;button class="basket-button bs_amount-minus basket_ripple" disabled&gt;&lt;/button&gt;&lt;input type="number" pattern="[0-9]*" value="0" class="basket-input bs_amount-input"
-                               autocomplete="off"&gt;&lt;button class="basket-button bs_amount-plus basket_ripple"
-                                aria-label="Artikel zum Warenkorb hinzufügen"&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;
-                    if (!window.ReweBasket) {
-                        window.ReweBasket = {}
-                    }
-                &lt;/script&gt;&lt;script type="text/javascript"&gt;
-                    (function () {
-                      var event = 'basket:addToBasketbuttonV2Render';
-                      var customEvent;
-                      var data = {};
-                      if (typeof CustomEvent === 'function') {
-                          customEvent = new CustomEvent(event, {detail: data});
-                      } else {
-                          customEvent = document.createEvent('CustomEvent');
-                          customEvent.initCustomEvent(event, false, false, data);
-                      }
-                      document.dispatchEvent(customEvent);
-                    })();
-                &lt;/script&gt;&lt;/meso-data&gt;</textarea>
-
-    <script type="application/json"
-      id="pdr-internaldata-propstore">{"includeUrls":{"basketIncludeUrl":"http://rewe-basket/ui/add-to-basket-button-v2","favoriteIncludeUrl":"http://rewe-myproducts/ui/favorite-button","selectLocationIncludeUrl":"http://market-chooser/ui/market-chooser-button","tileIncludeUrl":"http://product-details-renderer/ui/@@type@@/@@id@@?context=null&serviceTypes=DELIVERY"},"tilesDataUrl":"/api/product-tiles?@@ids@@&context=tile&serviceTypes=DELIVERY","context":null,"trackingPosition":null,"trackingContextName":null,"appearance":"vertical","productType":"default","checkoutConstrains":false,"testGroups":["PIE71-noOffer-homepage","checkout-display-showroom-ad","checkout-use-new-payment-authorizations","homepage-gam-limitedads","ini-3812-hide-regular-price","ini-4190-gam","mengenrabattierung","nav-veganuary","new-categories-home-page","new-navigation-tracking","offer-details-tracking","payback-card-change","payback-ecoupon-api","payback-evoucher","payback-rewe-newsletter","payback-targeted-bonus-coupon","payback-targeted-burn","productlist-citrusad","productlist-flagship-banner","productlist-funneling-zero-results-parcel-check","productlist-gam","productlist-gam-limitedads","productlist-navigation-tracking","productlist-new-deals-page","productlist-new-index","productlist-new-topseller","productlist-packaging-filter","productlist-testing-citrusad","rewe-sso","sy-cms-headlines","sy-isb-v2","sy-new-evoucher","tc108-hide-offers","wookiees-pickup-page"],"serviceTypes":["DELIVERY"],"marketCode":"320509","isLoggedIn":false}</script>
-    <script type="application/json"
-      id="fsr-propstore">{"bannerUrl":"/api/flagships","debug":false,"market":{"marketCode":"320509","serviceType":"DELIVERY"},"testGroups":["PIE71-noOffer-homepage","checkout-display-showroom-ad","checkout-use-new-payment-authorizations","homepage-gam-limitedads","ini-3812-hide-regular-price","ini-4190-gam","mengenrabattierung","nav-veganuary","new-categories-home-page","new-navigation-tracking","offer-details-tracking","payback-card-change","payback-ecoupon-api","payback-evoucher","payback-rewe-newsletter","payback-targeted-bonus-coupon","payback-targeted-burn","productlist-citrusad","productlist-flagship-banner","productlist-funneling-zero-results-parcel-check","productlist-gam","productlist-gam-limitedads","productlist-navigation-tracking","productlist-new-deals-page","productlist-new-index","productlist-new-topseller","productlist-packaging-filter","productlist-testing-citrusad","rewe-sso","sy-cms-headlines","sy-isb-v2","sy-new-evoucher","tc108-hide-offers","wookiees-pickup-page"],"queryParams":{"searchTerm":"p:home"}}</script>
-    <script type="application/json" id="fsr-propstore-default">null</script><rd-flagship id="default"></rd-flagship>
-  </div>
-  <div class="home-page-teasers-two-cols gam">
-    <div id="nc_home_teaser_large_left" class="gam-teaser" data-google-query-id="CImfgJSVwP8CFQ6Q_QcdaqcL-w">
-      <div id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Large_Left_0__container__"
-        style="border: 0pt none;"><iframe
-          id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Large_Left_0"
-          name="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Large_Left_0"
-          title="3rd party ad content" width="550" height="340" scrolling="no" marginwidth="0" marginheight="0"
-          frameborder="0" role="region" aria-label="Advertisement" tabindex="0"
-          style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="1"
-          src="./assets/saved_resource.html"></iframe>
-      </div>
-    </div>
-    <div id="nc_home_teaser_large_right" class="gam-teaser" data-google-query-id="CJSf_5OVwP8CFYfAuwgdLfsDgA">
-      <div id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Large_Right_0__container__"
-        style="border: 0pt none;"><iframe
-          id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Large_Right_0"
-          name="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Large_Right_0"
-          title="3rd party ad content" width="550" height="340" scrolling="no" marginwidth="0" marginheight="0"
-          frameborder="0" role="region" aria-label="Advertisement" tabindex="0"
-          style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="2"
-          src="./assets/saved_resource(6).html"></iframe>
-      </div>
-    </div>
-  </div>
-  <div class="home-page-teasers-three-cols gam">
-    <div id="nc_home_teaser_small_left" class="gam-teaser" data-google-query-id="CLrD_5OVwP8CFSHIuwgdrBoH_w">
-      <div id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Small_Left_0__container__"
-        style="border: 0pt none; display: inline-block; width: 100%; height: auto;"><iframe frameborder="0"
-          src="./assets/container.html"
-          id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Small_Left_0"
-          title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="0" height="323"
-          data-is-safeframe="true"
-          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-          role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="3"
-          style="border: 0px; vertical-align: bottom; min-width: 100%;" data-load-complete="true"></iframe></div>
-    </div>
-    <div id="nc_home_teaser_small_center" class="gam-teaser" data-google-query-id="CJXOgJSVwP8CFXXAuwgdLAIFfQ">
-      <div
-        id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Small_Center_0__container__"
-        style="border: 0pt none; display: inline-block; width: 100%; height: auto;"><iframe frameborder="0"
-          src="./assets/container(1).html"
-          id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Small_Center_0"
-          title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="0" height="323"
-          data-is-safeframe="true"
-          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-          role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="4"
-          style="border: 0px; vertical-align: bottom; min-width: 100%;" data-load-complete="true"></iframe></div>
-    </div>
-    <div id="nc_home_teaser_small_right" class="gam-teaser" data-google-query-id="CNuXgJSVwP8CFdjFuwgdcbMDqw">
-      <div id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Small_Right_0__container__"
-        style="border: 0pt none; display: inline-block; width: 100%; height: auto;"><iframe frameborder="0"
-          src="./assets/container(2).html"
-          id="google_ads_iframe_/22738821176/Shop.REWE.de/Home_New_Customers/NC_Home_Teaser_Small_Right_0"
-          title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="0" height="323"
-          data-is-safeframe="true"
-          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-          role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="5"
-          style="border: 0px; vertical-align: bottom; min-width: 100%;" data-load-complete="true"></iframe></div>
     </div>
   </div>
   <div class="home-page-cluster">
